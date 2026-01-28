@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6m2w2v6dxbxd"]
+
+[ext_resource type="Script" uid="uid://dahp64id74588" path="res://spr_block.gd" id="2_8hhxv"]
+
+[node name="main_2d" type="Node2D"]
+
+[node name="spr_block" type="Sprite2D" parent="."]
+script = ExtResource("2_8hhxv")
+
+[node name="cam" type="Camera2D" parent="."]
+position = Vector2(500, 300)
